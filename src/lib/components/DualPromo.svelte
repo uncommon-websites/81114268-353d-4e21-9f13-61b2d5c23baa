@@ -1,45 +1,68 @@
 <script lang="ts">
 </script>
 
-<section class="bg-white pb-24">
+<section id="consultation" class="bg-white pb-24">
     <div class="container mx-auto px-6 md:px-12">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
-            <!-- Left Card -->
-            <div class="relative h-[600px] rounded-lg overflow-hidden group">
-                <img src="https://images.unsplash.com/photo-1544367563-12123d895951?q=80&w=1000&auto=format&fit=crop" alt="Seed Labs" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
-                <div class="absolute inset-0 bg-black/20"></div>
+            <!-- Left Card: Book Consultation -->
+            <div class="relative h-[600px] rounded-2xl overflow-hidden group shadow-xl">
+                <img src="/generated/image-cozy-home-workspace-with-laptop-notebook-1766181339017-7.webp" alt="Umów konsultację" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
                 
                 <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white p-12">
-                    <h3 class="text-4xl font-medium mb-4 tracking-tight">Seed 【 Labs 】</h3>
-                    <p class="text-[15px] opacity-90 mb-8 font-light tracking-wide">Because health is not just human.</p>
-                    <a href="/" class="bg-white text-[#191919] px-10 py-3.5 rounded-full font-bold text-[11px] uppercase tracking-widest hover:bg-gray-100 transition-colors">
-                        Read More
+                    <div class="text-5xl mb-6">📅</div>
+                    <h3 class="text-3xl md:text-4xl font-light mb-4 tracking-tight">Umów bezpłatną<br/>konsultację</h3>
+                    <p class="text-[15px] opacity-90 mb-8 font-light tracking-wide max-w-md">
+                        Porozmawiajmy o Twoich potrzebach i znajdźmy najlepszą metodę dla Ciebie.
+                    </p>
+                    <a href="mailto:kontakt@esencjakobiecosci.pl" class="bg-white text-gray-900 px-10 py-4 rounded-full font-medium text-[13px] hover:bg-gray-100 transition-colors tracking-wide">
+                        Skontaktuj się
                     </a>
-                </div>
-                
-                <!-- Vertical Text -->
-                <div class="absolute left-8 top-1/2 -translate-y-1/2 -rotate-90 origin-center text-[10px] font-bold tracking-widest uppercase opacity-60 text-white hidden md:block w-64 text-center">
-                    Seed Labs — Venice — Italy
                 </div>
             </div>
 
-            <!-- Right Card -->
-            <div class="relative h-[600px] rounded-lg overflow-hidden group">
-                <img src="https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?q=80&w=1000&auto=format&fit=crop" alt="Gut Health" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
-                <div class="absolute inset-0 bg-black/20"></div>
+            <!-- Right Card: Join Webinar -->
+            <div class="relative h-[600px] rounded-2xl overflow-hidden group shadow-xl">
+                <img src="/generated/image-woman-meditating-or-doing-yoga-in-peacef-1766181336430-6.webp" alt="Webinary" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
                 
                 <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white p-12">
-                    <!-- Capsule Icon -->
-                    <div class="flex gap-2 mb-8">
-                        <div class="w-5 h-12 bg-[#1A3026] rounded-full border border-white/20 shadow-lg"></div>
-                        <div class="w-5 h-12 bg-[#1A3026] rounded-full border border-white/20 shadow-lg"></div>
-                    </div>
+                    <div class="text-5xl mb-6">🎓</div>
                     
-                    <h3 class="text-3xl md:text-4xl font-medium mb-4 max-w-md tracking-tight">Change your gut health for good.</h3>
-                    <p class="text-[15px] opacity-90 mb-8 font-light tracking-wide">Feel lasting relief in one week with DS-01®</p>
-                    <a href="/" class="bg-white text-[#191919] px-10 py-3.5 rounded-full font-bold text-[11px] uppercase tracking-widest hover:bg-gray-100 transition-colors">
-                        Shop Now
+                    <h3 class="text-3xl md:text-4xl font-light mb-4 max-w-md tracking-tight">Dołącz do webinaru</h3>
+                    <p class="text-[15px] opacity-90 mb-8 font-light tracking-wide max-w-md">
+                        Regularne spotkania online o naturalnym planowaniu rodziny i aromaterapii.
+                    </p>
+                    <a href="https://www.instagram.com/esencjakobiecosci/" target="_blank" rel="noopener noreferrer" class="bg-white text-gray-900 px-10 py-4 rounded-full font-medium text-[13px] hover:bg-gray-100 transition-colors tracking-wide">
+                        Zobacz terminy
                     </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Info Bar -->
+        <div class="mt-12 bg-gray-50 rounded-2xl p-8 md:p-12">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                <div>
+                    <div class="text-3xl mb-3">📧</div>
+                    <h4 class="font-medium text-gray-900 mb-2">Email</h4>
+                    <a href="mailto:kontakt@esencjakobiecosci.pl" class="text-sm text-gray-600 hover:text-gray-900 transition-colors">
+                        kontakt@esencjakobiecosci.pl
+                    </a>
+                </div>
+                <div>
+                    <div class="text-3xl mb-3">📱</div>
+                    <h4 class="font-medium text-gray-900 mb-2">Instagram</h4>
+                    <a href="https://www.instagram.com/esencjakobiecosci/" target="_blank" rel="noopener noreferrer" class="text-sm text-gray-600 hover:text-gray-900 transition-colors">
+                        @esencjakobiecosci
+                    </a>
+                </div>
+                <div>
+                    <div class="text-3xl mb-3">🌐</div>
+                    <h4 class="font-medium text-gray-900 mb-2">Współpraca</h4>
+                    <p class="text-sm text-gray-600">
+                        Fundacja ProCreatio<br/>NaProTechnology
+                    </p>
                 </div>
             </div>
         </div>
